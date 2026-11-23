@@ -1,0 +1,28 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python/runtime artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated experiment outputs
+**/results/
+**/results_*/
+**/logs/
+**/logs_*/
+*.log
+*.csv
+*.xlsx
+*.pdf
+
+# Editor/system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
